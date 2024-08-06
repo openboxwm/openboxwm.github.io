@@ -1,0 +1,28 @@
+#col1 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+li img {
+  float: left;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+}
+
+#col1 dl {
+  clear: both;
+  margin-bottom: 1em;
+  margin-right: 58px; /* same space on the right side as taken up by
+                         the icon on the left */
+}
+
+#col1 dl ul {
+  display: inline-block;
+  margin: 0;
+}
+
+#col1 ul li {
+  margin-left: 0;
+  margin-bottom: 0.5em;
+}

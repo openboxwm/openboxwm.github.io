@@ -1,0 +1,116 @@
+<?php
+$title="Home";
+$breadcrumb=array();
+?>
+
+<html>
+<?php include('head.php') ?>
+  <link rel="stylesheet" type="text/css" href="css/home.css" />
+</head>
+
+<?php include('top.php') ?>
+
+<div id="splash">
+<div id="splash-content">
+  <div id="splashimage">
+    <img src="http://david.chalkskeletons.com/OPENBOX/sshot.png" />
+  </div>
+  <div id="splashtext">
+    <h2>A Highly Configurable Window Manager</h2> 
+    <p> 
+    Openbox allows you to change almost every aspect of how you interact with
+    your desktop and invent completely new ways to use and control it. 
+    </p> 
+    <p> 
+    Openbox gives you control without making you do everything.
+    </p> 
+    <p> 
+    Take a look at the <a href="help.php?Start">getting started guide</a>
+    and change how you manage your desktop.
+    </p> 
+
+    <div id="download"> 
+      <a href="download.php"> &nbsp;</a> 
+    </div> 
+  </div>
+  <div class="clear"></div>
+</div>
+</div>
+
+<?php include('content.php') ?>
+
+<div id="col1"> 
+<h5>Getting Started</h5> 
+ 
+<dl> 
+<dt><img src="images/icons/openbox_logo.png" alt="start"/></dt> 
+<dd><a href="help.php?Start">Start using Openbox</a><br/>
+Openbox gives you control without making you do everything.</dd> 
+</dl>
+
+<dl> 
+<dt><img src="images/icons/list-add.png" alt="add"/></dt> 
+<dd><a href="help.php?Apps">Add New Functionality</a><br/>Panels, Widgets, Desktops, Pagers, etc.</dd> 
+</dl> 
+ 
+<dl> 
+<dt><img src="images/icons/help-browser.png" alt="add"/></dt> 
+<dd><a href="help.php">Documentation</a><br/>Learn how to <a href="help.php?Configuration">configure Openbox</a>, <a href="help.php?Menus">edit your menus</a> and much more.  </dd> 
+</dl> 
+<dl> 
+<dt><img src="images/icons/obconf.png" alt="obconf"/></dt> 
+<dd><a href="help.php?ObConf">ObConf</a><br/>Openbox GTK configuration tool.</dd> 
+</dl> 
+</div> 
+ 
+<div id="col2"> 
+ 
+<h5>Next Steps &amp; Helping Out</h5> 
+ 
+<dl> 
+<dt><img src="images/icons/bug.png" alt="bug"/></dt> 
+<dd><a href="develop.php">Bug Reporting</a><br/>Help out by
+<a href="develop.php">reporting bugs</a> or by
+<a href="develop-git.php">contributing code</a>.</dd> 
+</dl> 
+ 
+<dl> 
+<dt><img src="images/icons/translate.png" alt="trans"/></dt> 
+<dd><a href="develop-translate.php">
+  Help Translate Openbox</a><br/>
+  Any improvements to translations are greatly appreciated.</dd> 
+</dl> 
+ 
+<dl> 
+<dt><img src="images/icons/menu.png" alt="menu"/></dt> 
+<dd><a href="download-pipemenus.php">
+  Pipe Menus</a><br/>
+  Extend Openbox with pipemenus and contribute your own.</dd> 
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/comm.png" alt="comms"/></dt> 
+<dd><a href="discuss.php">Join the Community</a><br/>Meet other users, and learn about projects built around Openbox.</dd> 
+</dl> 
+</div>
+
+<div id="col3"> 
+<a href="rss/news"><img class="rsslink" src="images/rss.png" title="Subscribe to the feed"/></a>
+<h5>Recent Announcements</h5> 
+<dl>
+
+<div id="news" class="ticker"></div>
+<script type="text/javascript">
+  xmlNews('news', // the feed name
+	  'news', // the div name
+	  3,     // count
+	  'showdescription,titlelinktoid=discuss-news.php');
+</script>
+<div class="tickermore"> 
+  <a href="discuss-news.php">More news...</a> 
+</div> 
+
+</dl>
+</div> <!--col3-->
+
+<?php include('bottom.php') ?>

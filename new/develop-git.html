@@ -1,0 +1,242 @@
+<?php
+$title='Check Out the Source Code';
+$breadcrumb=array('Home', '.', 'Develop', 'develop.php');
+?>
+
+<html>
+  <?php include('head.php') ?>
+  <link rel="stylesheet" type="text/css" href="css/develop.css" />
+</head>
+
+<?php include('top.php') ?>
+
+<?php splash_title('images/splash/git.png', $title); ?>
+
+<?php include('content.php') ?>
+
+<div id="col1" class="widecol"> 
+<ol>
+  <li><a href="#quick">Quick Instructions</a></li>
+  <li><a href="#branches">Branches</a></li>
+  <li><a href="#local">Local changes</a></li>
+    <ol>
+      <li><a href="#conflict">Conflicting changes</a></li>
+    </ol>
+  </li>
+  <li><a href="#contrib">Contributing code</a></li>
+  <li><a href="#lowband">Low bandwidth option</a></li>
+  <li><a href="#repos">Alternate repos</a></li>
+  <li><a href="#reading">Further Reading</a></li>
+</ol>
+</div> <!--col1-->
+
+<div id="col2" class="widecol">
+<a name="quick"><h5 class="text">Quick Instructions</h5></a>
+
+<p>
+To get up and running, you just need one command. This will create a directory
+called openbox and download the git repository into it:
+</p>
+<blockcode>
+git clone git://git.openbox.org/dana/openbox openbox
+</blockcode>
+
+<p>To get the latest changes, from inside the downloaded git repository, run</p>
+<blockcode>
+git pull
+</blockcode>
+
+<p>
+Note however that this only does what you expect if you haven't made any changes.
+If you have, it will attempt to merge your changes which may or may not be what
+you want, see <a href="#local">Local Changes</a> below.
+</p>
+
+<p>
+Read the <code>README.GIT</code> file for instructions on building the
+source code from the git repository.
+</p>
+
+<a name="branches"><h5 class="text">Branches</h5></a>
+
+<p>
+Currently, there are two branches of interest in the Openbox git repos:
+master and 3.4-working. Master is the branch that will most likely become
+Openbox 3.5 or so, 3.4-working keeps compatibility with the rc.xml file from
+the 3.4.x releases. There is also a branch called backport which is where we
+put fixes and features that should go in both the other branches.
+</p>
+
+<p>
+By default you will get the master branch, hence the name. If you want the
+3.4-working branch, run
+</p>
+<blockcode>
+git checkout --track -b 3.4-working origin/3.4-working
+</blockcode>
+
+<p>
+You can now switch between them with git checkout master and git checkout
+3.4-working.
+</p>
+
+<p>
+If you want the very latest changes, first decide if you want 3.4-working or master,
+then check if we've recently merged the backport branch, for example by checking
+the output of git-log, looking at gitk --all or at the gitweb interface (look
+near the bottom under the "heads" header). If there are any interesting changes
+in the backport branch you want, just run
+</p>
+<blockcode>
+git merge origin/backport
+</blockcode>
+
+<p>
+and git will pull in the changes for you. If it did not succeed or if the result
+didn't compile, you should wait for us to merge it instead. Note however that a
+git pull will not remerge backport for you, it will only get updates from the
+branch you're currently on. If there are new commits on backport just rerun the
+merge command. If you've merged backport, you might want to reset your master
+branch before rerunning git pull. (this will remove local changes, so make
+sure they're committed on another branch as detailed below if you have those).
+</p>
+<blockcode>
+git reset --hard origin/3.4-working
+</blockcode>
+
+<p>
+or if you're using master, type origin/master instead of course. And make sure
+you've checked out the correct branch first. If you messed up, read
+<code>man git-reflog</code>.
+</p>
+
+<a name="local"><h5 class="text">Local changes</h5></a>
+
+<p>
+Unlike CVS and Subversion, git lets you have local changes while still tracking
+upstream development, in a nut shell, make your changes and run
+</p>
+<blockcode>
+git commit -a -m "informative message"
+</blockcode>
+
+<p>
+It's usually a good idea to keep your changes in a separate branch. You can do
+this in a couple of ways, the easiest way is to run
+</p>
+<blockcode>
+git checkout -b my-branch master
+</blockcode>
+<p>
+then commit all your changes to that branch.
+</p>
+
+<a name="conflict"><h6 class="text">Conflicting changes</h6></a>
+
+<p>
+If you hang on to your changes for a long time, it's likely that
+we will make commits that conflict with yours. There are two ways to
+deal with this, you can either <code>git-merge</code> our branch and resolve the
+differences, but the better way is to use <code>git-rebase</code>.
+This command
+will take your commits and apply them to the tip (ie latest version)
+of the specified branch, pausing after each commit that conflicts.
+This usually makes it easier to resolve the conflicts and also gives
+a nicer history. Using git-rebase is a bit complicated so read the
+man page.
+</p>
+
+<p>
+If you just want to test that your changes work with the
+latest version of openbox, you can merge master and then
+later use <code>git reset --hard HEAD^</code> to revert
+the merge. However, I recommend first doing a
+<code>git checkout -b my-temp</code>, since running
+git-reset twice will continue reverting real commits, so it's
+easy to mess up. If you're doing all the temp merging on a
+separate branch you don't have to worry about that.
+</p>
+
+<a name="contrib"><h5 class="text">Contributing code</h5></a>
+
+<p>
+You've coded an exciting feature and now you want to send a
+diff, how to do it? git-diff you might guess, and while that
+will produce a diff you can send, git-format-patch is a bit
+nicer as it will automatically give you a patch file per commit
+that you want to send, with the commit message in each file.
+</p>
+
+<p>
+Another option is to set up your own public repo and simply tell
+us where to pull your changes from, look at the git-daemon man
+page for details. You can also use the git-bundle command to send
+a file that contains all commits, which we can then pull from. For
+example if you've made all your commits on the branch my-branch
+which you produced at some point from <code>git checkout -b master</code>,
+you can produce your bundle with
+</p>
+<blockcode>
+git bundle create my-bundle master..my-branch
+</blockcode>
+<p>
+then send the file my-bundle to us.
+</p>
+
+<a name="lowband"><h5 class="text">Low bandwidth option</h5></a>
+
+<p>
+If your internet connection is very slow (the full git
+repo is currently around 8.5MB) and you just want the very
+latest version without any history, you can run
+</p>
+<blockcode>
+git clone --depth 1 git://git.openbox.org/dana/openbox openbox
+</blockcode>
+
+<p>
+This will give you only the current and preceding commit from
+each branch, but you can't do much more with your repo than compile
+the code. Merging as described above will only work if you use a
+depth high enough to include the point where the backport branch
+separated from master. See the git-clone and git-fetch man pages
+for further details.
+</p>
+
+<p>
+You can also download a tarball of any revision via
+<a href="http://git.openbox.org/?p=dana/openbox.git;a=summary">gitweb</a>.
+Click "tree" next to a branch name at the bottom, then "snapshot" at the
+top of the new page.
+</p>
+
+<a name="repos"><h5 class="text">Alternate repos</h5></a>
+
+<p>
+Due to the distributed nature of git, you can choose to pull
+from various upstream locations (see the git-remote man page for
+details on how to use several remotes).
+</p>
+<blockcode>git://git.openbox.org/dana/openbox</blockcode>
+<blockcode>git://git.openbox.org/mikachu/openbox</blockcode>
+<blockcode>git://git.mika.l3ib.org/openbox.git</blockcode>
+<blockcode>git://repo.or.cz/openbox.git</blockcode>
+
+<p>
+The astute git user will notice that there are some variations in branches
+offered among these, for example dana has a libs branch that separates out
+some common wm code in a library, and mikachu has a mikabox branch which
+is just some crazy stuff.
+</p>
+
+<a name="reading"><h5 class="text">Further reading</h5></a>
+
+<p>
+On the <a href="http://git-scm.com/">git homepage</a> there are many great
+tutorials and all the man
+pages are available for browsing as well.
+</p>
+
+</div> <!--col2-->
+
+<?php include('bottom.php') ?>

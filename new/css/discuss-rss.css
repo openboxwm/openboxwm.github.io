@@ -1,0 +1,61 @@
+#subscribe {
+  float: right;
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+
+#subscribe img {
+  float:left;
+  margin-right: 0.4em;
+  height: 1em;
+}
+
+.ticker .name, .ticker .title {
+  font-size: 1.5em;
+}
+
+.ticker .name {
+  float: left;
+  margin-left: 0;
+}
+
+.ticker hr {
+  clear: both;
+}
+
+.ticker .description {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.disclaimer {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#col1 p {
+  margin-left: 1em;
+}
+
+#col1 li {
+  margin-bottom: 0.5em;
+}
+
+#col1 li img {
+  float: left;
+  margin-right: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+#col1 h6 {
+  margin-top: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: 1em;
+}

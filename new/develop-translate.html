@@ -1,0 +1,94 @@
+<?php
+$title='Help Translate Openbox';
+$breadcrumb=array('Home', '.', 'Develop', 'develop.php');
+?>
+
+<html>
+  <?php include('head.php') ?>
+  <link rel="stylesheet" type="text/css" href="css/develop.css" />
+</head>
+
+<?php include('top.php') ?>
+
+<?php splash_title('images/splash/translate.png', $title); ?>
+
+<?php include('content.php') ?>
+
+<div id="col1" class="widecol">
+<dl> 
+<dt><img src="images/icons/openbox_logo.png" alt="openbox"/></dt> 
+<dd><a href="http://git.icculus.org/?p=mikachu/openbox.git;a=tree;f=po;hb=backport">
+  Openbox Translations</a><br />
+  Browse existing translations for Openbox, and see the
+  <a href="http://git.icculus.org/?p=mikachu/openbox.git;a=blob_plain;f=po/openbox.pot;hb=backport">
+  translation template</a>.</dd>
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/status.png" alt="status"/></dt> 
+<dd><a href="http://mika.l3ib.org/ob_translation_status">
+  Openbox Translation Status</a><br />
+  See how many strings are translated for a language in Openbox.</dd>
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/obconf.png" alt="obconf"/></dt> 
+<dd><a href="http://git.icculus.org/?p=dana/obconf.git;a=tree;f=po;hb=HEAD">
+  ObConf Translations</a><br />
+  Browse existing translations for ObConf, and see the
+  <a href="http://git.icculus.org/?p=dana/obconf.git;a=blob_plain;f=po/obconf.pot;hb=HEAD">
+  translation template</a>.</dd>
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/share.png" alt="share"/></dt> 
+<dd><a href="http://bugzilla.icculus.org/enter_bug.cgi?product=Openbox&component=Translations&form_name=enter_bug">
+  Share Your Work</a><br />
+  Submit a new or updated translation.<br/>
+  <div class="clear"></div>
+  <img class="emblem" src="images/importantsmall.png" alt="!"/>
+  <strong>Note:</strong> you will get the opportunity to upload the file
+  <strong>after</strong> you create the entry, don't paste the file in the
+  comments box.
+</dd>
+</dl> 
+
+</div>
+
+<div id="col2" class="widecol">
+<h3>
+Help us translate Openbox! Any improvements to existing translations,
+or translations to new languages would be greatly appreciated by your fellow users.
+</h3>
+
+<p>
+Translations are done through "po" files. The easiest way to edit these files is to use <a href="http://kbabel.kde.org/">KBabel</a>, which is a part of KDE (in the kdesdk package).
+</p>
+
+<p>
+If you want to update an existing translation,
+<a href="http://git.icculus.org/?p=mikachu/openbox.git;a=tree;f=po;hb=backport">browse through</a>
+our latest translations. You can download and modify the translation from there (right click on the "raw" link and select "save as" or the equivalent).
+</p>
+<p>
+If you want to create a new translation from scratch, download the current
+<a href="http://git.icculus.org/?p=mikachu/openbox.git;a=blob_plain;f=po/openbox.pot;hb=backport">translation template for Openbox</a>
+or the
+<a href="http://git.icculus.org/?p=dana/obconf.git;a=blob_plain;f=po/obconf.pot;hb=HEAD">translation template for ObConf</a>
+and add your translations to it. Download the file and run the command <code>msginit --locale LL_CC</code> where LL_CC is the appropriate code for your language. For example ru for Russian, sv for swedish or en_CA for the Canadian variant of English. If you don't have the msginit command, you can save the file directly as <code>LL_CC.po</code> and fill in the header yourself, using an existing translation as a template.
+</p>
+<p>
+When you've completed a new translation, you can submit it to the bugzilla to have it included in the next release. To submit a translation, follow the link below and fill out the template to create a bug report. After the bug report has been created, attach your new "po" file to the bug. If you for some reason don't want to use bugzilla, you can also try to send the translation to the mailing list or contact us directly on IRC but these methods are less reliable and the translation might get lost.
+</p>
+<p>
+<img class="emblem" src="images/importantsmall.png" />
+Please make sure to specify the character encoding properly or Openbox won't be able to read the strings.  UTF-8 is preferable.
+</p>
+<p>
+If you have any questions about what the english text means, or anything else is unclear, please don't hesitate to contact us via the
+<a href="discuss.php">mailing list or on IRC</a>.
+</p>
+<h3>Thank you for your help!</h3>
+</div> <!-- col2 -->
+
+<?php include('bottom.php') ?>

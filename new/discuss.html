@@ -1,0 +1,98 @@
+<?php
+$title='Discuss';
+$breadcrumb=array('Home', '.');
+?>
+
+<html>
+  <?php include('head.php'); ?>
+  <link rel="stylesheet" type="text/css" href="css/discuss.css" />
+</head>
+
+<?php include('top.php'); ?>
+
+<?php splash_title('images/splash/discuss.png', $title); ?>
+
+<?php include('content.php'); ?>
+
+<div id="col1"> 
+<dl> 
+<dt><img src="images/icons/mail.png" alt="mail"/></dt> 
+<dd><a href="http://icculus.org/mailman/listinfo/openbox">Join the Mailing List</a><br/>Ask questions about using Openbox, or <a href="http://news.gmane.org/gmane.comp.window-managers.openbox">read the archives</a>.</dd> 
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/irc.png" alt="irc"/></dt> 
+<dd><a href="irc://irc.oftc.net:6667/openbox">Talk on IRC</a><br/>Openbox has
+an IRC channel on <a href="http://www.oftc.net/">oftc</a>, stealthily called
+<a href="irc://irc.oftc.net:6667/openbox">#openbox</a>.</dd> 
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/sshots.png" alt="screenshots"/></dt> 
+<dd><a href="discuss-sshots.php">
+Show Off Your Desktop</a><br/>
+Browse screenshots by other users and show off your own.
+</dd> 
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/news.png" alt="irc"/></dt> 
+<dd><a href="discuss-news.php">Recent Announcements</a><br/>
+Read the latest announcements from the Openbox team.</dd> 
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/facebook.png" alt="facebook"/></dt> 
+<dd><a href="http://www.facebook.com/pages/Openbox/44681126602">
+Become a Fan</a><br/>
+Join the Openbox facebook page.
+</dd> 
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/lastfmlogo.jpg" alt="facebook"/></dt> 
+<dd><a href="http://www.last.fm/group/Openbox">
+Last.fm Community</a><br/>
+Share music with other Openbox users.
+</dd> 
+</dl> 
+ 
+</div> 
+ 
+<div id="col2"> 
+<a href="rss/planet"><img class="rsslink" src="images/rss.png" title="Subscribe to the feed"/></a>
+<h5>Community Blogroll</h5> 
+<dl>
+
+<div id="planetfeed" class="ticker">
+<script type="text/javascript">
+  xmlNews('planet',     // the feed name
+	  'planetfeed', // the div name
+	  4,            // count
+	  'showimage,shownamebottom,showdate,showdescription,titlelinktoid=discuss-planet.php');
+</script>
+</div>
+<div class="tickermore"> 
+  <a href="discuss-planet.php">Planet Openbox...</a> 
+</div> 
+</div><!--col2-->
+
+<div id="col3"> 
+<a href="rss/mini"><img class="rsslink" src="images/rss.png" title="Subscribe to the feed"/></a>
+<h5>Twitter Feed</h5> 
+<dl>
+<div id="minifeed" class="ticker">
+<script type="text/javascript">
+  xmlNews('miniplanet', // the feed name
+	  'minifeed', // the div name
+	  5,     // count
+	  'showimage,twitter,showdate,titlelinktoid=discuss-miniplanet.php');
+</script>
+</div>
+<div class="tickermore"> 
+  <a href="discuss-miniplanet.php">More tweets...</a> 
+</div> 
+</dl>
+</div> <!--col3-->
+
+<?php include('bottom.php'); ?>

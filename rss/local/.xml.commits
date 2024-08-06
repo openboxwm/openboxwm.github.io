@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<feed>
+ <title>Openbox Commits</title>
+ <link>http://icculus.org/openbox/develop.shtml</link>
+ <description>Commit log for Openbox and ObConf</description>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/2214f1</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;acf9a2341d23&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/ (4 files in 2 dirs):                      &lt;/div&gt;         &lt;div&gt;             add an inotify watcher for directories (doesnt work without inotify yet)</text>
+  <title>add an inotify watcher for directories (doesnt work without inotify yet)</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>5594a2d911378bcfe5882b3ac2336da5</id>
+  <date>1275610200</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/221412</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;2e94af28e4c1&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obt/link.c:                      &lt;/div&gt;         &lt;div&gt;             save the list of mime types listed as supported by an application</text>
+  <title>save the list of mime types listed as supported by an application</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>f029a1b717e7551be9eb79814513bead</id>
+  <date>1275602335</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/2212fd</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;b025a0268f30&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obt/ (ddparse.c ddparse.h link.c link.h):                      &lt;/div&gt;         &lt;div&gt;             parse app Categories better.  parse a list of strings into a gchar**</text>
+  <title>parse app Categories better. parse a list of strings into a gchar**</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>416434e310513b8c650d14c17c98fe8a</id>
+  <date>1275602334</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/221226</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;78a8f407a94d&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obt/link.c:                      &lt;/div&gt;         &lt;div&gt;             parse Categories tag and save them as an array of GQuarks</text>
+  <title>parse Categories tag and save them as an array of GQuarks</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>94711b0212c5a1d44e4192c3cff0271e</id>
+  <date>1275599503</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/2210b1</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;a6141fe7a489&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obt/ (ddparse.c ddparse.h link.c):                      &lt;/div&gt;         &lt;div&gt;             &lt;pre&gt; improved .desktop parsing.
+
+properly (and quickly) check for existence of required keys
+figure out what an app can open from its exec key
+validate the %fields in an app's exec key&lt;/pre&gt;</text>
+  <title>improved .desktop parsing. properly (and quickly) check for existence of...</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>d059e33e94d2397331362438751e28d6</id>
+  <date>1275596265</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220ffa</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;d9d65b73853d&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obt/paths.c:                      &lt;/div&gt;         &lt;div&gt;             free the user's group ids</text>
+  <title>free the user's group ids</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>75a686444a0a5f04474d942cccf63ef1</id>
+  <date>1275596261</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220f4a</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;19e051a46601&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obt/paths.c:                      &lt;/div&gt;         &lt;div&gt;             free the path dirs</text>
+  <title>free the path dirs</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>742167bc848f2f5d4960845e97913e86</id>
+  <date>1275596255</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220e85</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;475961e17fd5&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obt/link.c:                      &lt;/div&gt;         &lt;div&gt;             parse Path, Terminal, and StartupNotify</text>
+  <title>parse Path, Terminal, and StartupNotify</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>4d4d9b5d1ad8a52dd5e0921e75c4324b</id>
+  <date>1274501469</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220de2</link>
+  <text>Commit by &lt;strong&gt;mikachu&lt;/strong&gt;              on wip/foreach             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;19e2f84949e9&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/:                      &lt;/div&gt;         &lt;div&gt;             forced update</text>
+  <title>forced update</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>e6b73e062816de96b11cc9fc2850c56b</id>
+  <date>1274501432</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220d0e</link>
+  <text>Commit by &lt;strong&gt;mikachu&lt;/strong&gt;              on wip/foreach             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;19e2f84949e9&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/openbox/actions/if.c:                      &lt;/div&gt;         &lt;div&gt;             Add &lt;samegroup&gt; condition to ForEach</text>
+  <title>Add &lt;samegroup&gt; condition to ForEach</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>2d8f19dd5005df2da9770f4f8ae58b6a</id>
+  <date>1274501361</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220c24</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;0c8c9caba6f5&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obt/ (ddparse.c ddparse.h link.c link.h):                      &lt;/div&gt;         &lt;div&gt;             parse OnlyShowIn/NotShowIn</text>
+  <title>parse OnlyShowIn/NotShowIn</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>b52c3c0f5c743492c3bd99ac1a94a006</id>
+  <date>1274501036</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220b81</link>
+  <text>Commit by &lt;strong&gt;mikachu&lt;/strong&gt;              on wip/foreach             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;f11074c1a8b7&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/:                      &lt;/div&gt;         &lt;div&gt;             forced update</text>
+  <title>forced update</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>0dc230d0cebcdba17c64f7c61554a206</id>
+  <date>1274497973</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/2209d9</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;632eb082277e&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/openbox/client.c:                      &lt;/div&gt;         &lt;div&gt;             &lt;pre&gt; allow new windows on other desktops to get focused if specified in a per-app rule
+
+you can not client_active() with user=false and desktop=true and activate things on other desktops, by the general focus steal restrictions, if you wanted to do that sorta thing&lt;/pre&gt;</text>
+  <title>allow new windows on other desktops to get focused if specified in a per-app...</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>a3ba4dc8bdc8bbc86a157ab69a659cc5</id>
+  <date>1274489814</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/22093f</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on cgl             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;47e79932412d&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/:                      &lt;/div&gt;         &lt;div&gt;             forced update</text>
+  <title>forced update</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>d5b0d8fcb59776833374a9994c155f5f</id>
+  <date>1274489791</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220798</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on cgl             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;fecb6ff952a5&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/openbox/client.c:                      &lt;/div&gt;         &lt;div&gt;             &lt;pre&gt; allow new windows on other desktops to get focused if specified in a per-app rule
+
+you can not client_active() with user=false and desktop=true and activate things on other desktops, by the general focus steal restrictions, if you wanted to do that sorta thing&lt;/pre&gt;</text>
+  <title>allow new windows on other desktops to get focused if specified in a per-app...</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>6ba40e098edab5c689b055cdf9f957c8</id>
+  <date>1274489738</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/220630</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on cgl             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;47e79932412d&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/obtheme/ (lexer.l obtheme.c obtheme.h parser.y):                      &lt;/div&gt;         &lt;div&gt;             &lt;pre&gt; fix header includes in obtheme
+
+some should point to other dirs, and some need to point to the renamed
+parser.y's new output parser.h&lt;/pre&gt;</text>
+  <title>fix header includes in obtheme some should point to other dirs, and some need to...</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>b032b03690d304c18ec851739b22d0e7</id>
+  <date>1274485539</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/22044f</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on cgl             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;daea270a0cb4&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/ (10 files in 2 dirs):                      &lt;/div&gt;         &lt;div&gt;             &lt;pre&gt; Add obtheme/ to the build system
+
+Had to rename the .y file so it didn't clash
+Added a Makefile stub in the directory to run the top level Makefile&lt;/pre&gt;</text>
+  <title>Add obtheme/ to the build system Had to rename the .y file so it didn't clash...</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>f9ead5e72cf49bac7d6e8ea6c62507c8</id>
+  <date>1274485538</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/2203b5</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on cgl             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;1f29db294a28&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/:                      &lt;/div&gt;         &lt;div&gt;             forced update</text>
+  <title>forced update</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>795d106a1278f0bd299f9fb9ca2b8b74</id>
+  <date>1274485509</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/22031a</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;fa39954c9dd5&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/:                      &lt;/div&gt;         &lt;div&gt;             forced update</text>
+  <title>forced update</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>799c28fab5c64dc62ecc3bfda9db787f</id>
+  <date>1274480262</date>
+ </item>
+ <item>
+  <name>Openbox</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Openbox/.message/2201ed</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on work             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;973456488981&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/openbox/client.c:                      &lt;/div&gt;         &lt;div&gt;             &lt;pre&gt; don't need a force_reply when changing the decor for a window
+
+it will send a configurenotify if the client's rootwindow position changed&lt;/pre&gt;</text>
+  <title>don't need a force_reply when changing the decor for a window it will send a...</title>
+  <feedurl>http://icculus.org/openbox</feedurl>
+  <feedtitle>Openbox</feedtitle>
+  <id>48069c9d2c074349f6652a5c27a3662e</id>
+  <date>1274480182</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/12a4c</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;500163e2c74c&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/src/archive.c:                      &lt;/div&gt;         &lt;div&gt;             remove unneeded strdup</text>
+  <title>remove unneeded strdup</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>1b01acc7f49336eded1826edac5e29b8</id>
+  <date>1268167879</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/12840</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;b0465895c15c&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/src/obconf.glade:                      &lt;/div&gt;         &lt;div&gt;             don't use a non-zero page size for some spinners (Fix bug #4540)</text>
+  <title>don't use a non-zero page size for some spinners (Fix bug #4540)</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>e7e7cba34df20ec8e6287b9965fa89ec</id>
+  <date>1266024123</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/12625</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;e3545ed4e522&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/src/preview_update.c:                      &lt;/div&gt;         &lt;div&gt;             don't set the theme preview if a null is returned (trying to fix bug #3285)</text>
+  <title>don't set the theme preview if a null is returned (trying to fix bug #3285)</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>6268c5344376fb0408341bb1b53ca6f0</id>
+  <date>1261441963</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/1243a</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;971d263ae89a&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/.gitignore:                      &lt;/div&gt;         &lt;div&gt;             add some configure stuff to .gitignore</text>
+  <title>add some configure stuff to .gitignore</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>10cfebc32c9ae389e09c89b21253412f</id>
+  <date>1261440579</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/1220d</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;c6024d2c7801&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/src/ (6 files):                      &lt;/div&gt;         &lt;div&gt;             use the new obt_xml stuff</text>
+  <title>use the new obt_xml stuff</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>616960ef1daad6c8d2de3ce9d58ac19c</id>
+  <date>1261440575</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/11d05</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;a88014c057ab&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/src/ (7 files):                      &lt;/div&gt;         &lt;div&gt;             Add the Inactive OSD font, and the primaryMonitor options</text>
+  <title>Add the Inactive OSD font, and the primaryMonitor options</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>5f5242f82f6d0c5bdeefe1dbb77aea95</id>
+  <date>1261439670</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/11f83</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;ec757ef0ca19&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/ (11 files in 2 dirs):                      &lt;/div&gt;         &lt;div&gt;             Use the openbox 3.5 libs</text>
+  <title>Use the openbox 3.5 libs</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>3fc7749a51ae40dbb35ce07d021763c3</id>
+  <date>1261439670</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/11af6</link>
+  <text>Commit by &lt;strong&gt;lon&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;c8ac23e5d752&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/ (LINGUAS zh_CN.po):                      &lt;/div&gt;         &lt;div&gt;             Add a Simplified Chinese(zh_CN) translation for obconf-2.0.3</text>
+  <title>Add a Simplified Chinese(zh_CN) translation for obconf-2.0.3</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>29d099ddf3aa38f5932b3e00d99ed120</id>
+  <date>1261429608</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/11682</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;88889ed33863&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/ (cs.po de.po fr.po pt_BR.po):                      &lt;/div&gt;         &lt;div&gt;             update the po files.  remoev fuzzy strings from cs and de languages</text>
+  <title>update the po files. remoev fuzzy strings from cs and de languages</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>b22dab5bd43eeb01228df53b2ec47495</id>
+  <date>1235073994</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/118af</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;c662efb2b24b&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/ (LINGUAS ru.po):                      &lt;/div&gt;         &lt;div&gt;             &lt;pre&gt; a russion translation submission
+
+there are still some missing strings, and it needs keyboard shortcuts, but there it is&lt;/pre&gt;</text>
+  <title>a russion translation submission there are still some missing strings, and it...</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>f6c349a548ec6ab64281c8cd8686f8f0</id>
+  <date>1235073983</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/1148f</link>
+  <text>Commit by &lt;strong&gt;mario.blaettermann&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;ff02b1f6eba1&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/ (LINGUAS de.po):                      &lt;/div&gt;         &lt;div&gt;             add a german translation</text>
+  <title>add a german translation</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>19248f110fe4c6d11b91f5d404fc4733</id>
+  <date>1210033982</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/11299</link>
+  <text>Commit by &lt;strong&gt;ogmaciel&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;a6a7b582d380&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/pt_BR.po:                      &lt;/div&gt;         &lt;div&gt;             update for the brasilian portuguese translation</text>
+  <title>update for the brasilian portuguese translation</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>1f16cc397f2fb293b0629586f6629446</id>
+  <date>1204820224</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/110b0</link>
+  <text>Commit by &lt;strong&gt;nocbos&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;f481b7c562f7&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/fr.po:                      &lt;/div&gt;         &lt;div&gt;             More updates for the French translation</text>
+  <title>More updates for the French translation</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>1b41a8fb30dcb8ddba32ddce6b53b561</id>
+  <date>1204524650</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/10e50</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;0e14d59af873&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/ (10 files):                      &lt;/div&gt;         &lt;div&gt;             add new strings to the po files</text>
+  <title>add new strings to the po files</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>a2c670578cee5b56c97ee53693848cdb</id>
+  <date>1204523049</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/10c72</link>
+  <text>Commit by &lt;strong&gt;nocbos&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;f6b511b5ac70&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/fr.po:                      &lt;/div&gt;         &lt;div&gt;             Update the French translation</text>
+  <title>Update the French translation</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>9df1b9b6c8c95524f299850372f148ef</id>
+  <date>1204522811</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/10a76</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;a8d3572dbad7&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/ (LINGUAS pt_BR.po):                      &lt;/div&gt;         &lt;div&gt;             add a portugeuse (brasilian) translation</text>
+  <title>add a portugeuse (brasilian) translation</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>fe73d1c69a7fa97f6dc494fafdffaa32</id>
+  <date>1204492730</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/10872</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;03aadf423b4e&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/src/ (obconf.glade strings.c):                      &lt;/div&gt;         &lt;div&gt;             add a nice decription of what the dock is</text>
+  <title>add a nice decription of what the dock is</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>116b8d86f090ab85bb5b724b390a60ba</id>
+  <date>1204453431</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/10686</link>
+  <text>Commit by &lt;strong&gt;mektup&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;524d7f2845c2&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/tr.po:                      &lt;/div&gt;         &lt;div&gt;             update the turkish translation for 2.0.3</text>
+  <title>update the turkish translation for 2.0.3</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>e02c73afa72ab08abf35e45b50c2f962</id>
+  <date>1202970996</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/1041c</link>
+  <text>Commit by &lt;strong&gt;danakj&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;4f30d1a655dd&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/ (9 files):                      &lt;/div&gt;         &lt;div&gt;             add the new strings to .po files and remove fuzzy stuff</text>
+  <title>add the new strings to .po files and remove fuzzy stuff</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>2a6717d5c3dfb1167d5cb9f0cf16ba6e</id>
+  <date>1202970815</date>
+ </item>
+ <item>
+  <name>ObConf</name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://cia.vc/stats/project/Obconf/.message/1023e</link>
+  <text>Commit by &lt;strong&gt;mikachu&lt;/strong&gt;              on master             &lt;span&gt; :: &lt;/span&gt;                          r&lt;b&gt;31b9a663d2ba&lt;/b&gt;             &lt;b&gt;&lt;/b&gt;/po/sv.po:                      &lt;/div&gt;         &lt;div&gt;             Update swedish translation.</text>
+  <title>Update swedish translation.</title>
+  <feedurl>http://icculus.org/openbox/index.php/ObConf</feedurl>
+  <feedtitle>ObConf</feedtitle>
+  <id>083e0b238da88dee8deaf6c05a585c11</id>
+  <date>1202754667</date>
+ </item>
+</feed>

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - Openbox</title>
+    {% include head.html %}
+  </head>
+  <body>
+    <div id="globalWrapper">
+        <div id="column-content"><div id="content">
+            {{ content }}
+            <div class="visualClear"></div>
+        </div></div>
+        {% include column_one.html %}
+        {% include footer.html %}
+    </div>
+</body>
+</html>

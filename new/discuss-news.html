@@ -1,0 +1,30 @@
+<?php
+$title='Recent Announcements';
+$breadcrumb=array('Home', '.', 'Discuss', 'discuss.php');
+?>
+
+<html>
+  <?php include('head.php') ?>
+  <link rel="stylesheet" type="text/css" href="css/discuss.css" />
+  <link rel="stylesheet" type="text/css" href="css/discuss-rss.css" />
+</head>
+
+<?php include('top.php') ?>
+
+<?php splash_title('images/icons/news.png', $title); ?>
+
+<div id="subscribe"><a href="rss/news"><img border="0" src="images/rssshort.png" />Subscribe</a></div>
+
+<?php include('content.php') ?>
+
+<!-- container for the html output -->
+<div id="news" class="ticker">
+<script type="text/javascript">
+xmlNews('news', // the feed name
+        'news', // the div name
+	20,     // count
+	'links,fulldescription,showdate,idname');
+</script>
+</div>
+
+<?php include('bottom.php') ?>

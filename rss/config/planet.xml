@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feeds>
+<feed>
+  <name>Adam Bellinson</name>
+  <planet>
+    <www>http://www.threadbox.net</www>
+    <rss>http://feeds.feedburner.com/threadbox</rss>
+  </planet>
+  <image>thread.png</image>
+  <nick>thread</nick>
+</feed>
+<feed>
+  <name>Akkana Peck</name>
+  <planet>
+    <www>http://shallowsky.com/blog</www>
+    <rss>http://shallowsky.com/blog/index.rss</rss>
+  </planet>
+  <mini>
+    <www>http://twitter.com/akkakk</www>
+    <rss>http://twitter.com/statuses/user_timeline/48417042.atom</rss>
+  </mini>
+  <image></image>
+  <nick>akk</nick>
+</feed>
+<feed>
+  <name>Andrew Williams</name>
+  <mini>
+    <www>http://identi.ca/nikdoof/</www>
+    <rss>http://identi.ca/nikdoof/rss</rss>
+  </mini>
+  <image></image>
+  <nick></nick>
+</feed>
+<feed>
+  <name>Brandon Cash</name>
+  <planet>
+    <www>http://blog.brandoncash.net</www>
+    <rss>http://blog.brandoncash.net/rss</rss>
+  </planet>
+  <mini>
+    <www>http://twitter.com/brandoncash</www>
+    <rss>http://twitter.com/statuses/user_timeline/17181890.atom</rss>
+  </mini>
+  <nick>cai</nick>
+  <image>cai.png</image>
+</feed>
+<feed>
+  <name>Calvin Wong</name>
+  <planet>
+    <www>http://debian-administration.org/users/deadcat/weblog</www>
+    <rss>http://www.debian-administration.org/weblog/feeds/deadcat</rss>
+  </planet>
+  <nick>deadcat</nick>
+  <image>deadcat.png</image>
+</feed>
+<feed>
+  <name>Christopher W.</name>
+  <planet>
+    <www>http://www.linuxinfusion.com/</www>
+    <rss>http://www.linuxinfusion.com/feed</rss>
+  </planet>
+  <mini>
+    <www>http://identi.ca/moparx</www>
+    <rss>http://identi.ca/moparx/rss</rss>
+  </mini>
+  <nick>moparx</nick>
+  <image></image>
+</feed>
+<feed>
+  <name>Crimeboy</name>
+  <planet>
+    <www>http://celo.wordpress.com/</www>
+    <rss>http://celo.wordpress.com/feed/rss/</rss>
+  </planet>
+  <nick>crimeboy</nick>
+  <image></image>
+</feed>
+<feed>
+  <name>Dave Foster</name>
+  <planet>
+    <www>http://www.minuslab.net/d</www>
+    <rss>http://www.minuslab.net/d/?feed=rss2</rss>
+  </planet>
+  <mini>
+    <www>http://twitter.com/m4re</www>
+    <rss>http://twitter.com/statuses/user_timeline/18455974.atom</rss>
+  </mini>
+  <nick>m4re</nick>
+  <image>m4r3.png</image>
+</feed>
+<feed>
+  <name>David Barr</name>
+  <planet>
+    <www>http://david.chalkskeletons.com/blog</www>
+    <rss>http://david.chalkskeletons.com/blog/?feed=rss2</rss>
+  </planet>
+  <mini>
+    <www>http://twitter.com/david_barr</www>
+    <rss>http://twitter.com/statuses/user_timeline/14423164.atom</rss>
+  </mini>
+  <nick>mulberry</nick>
+  <image>dpb.png</image>
+</feed>
+<feed>
+  <name>David Shakaryan</name>
+  <planet>
+    <www></www>
+    <rss>http://www.ompty.org/omposter/rss.xml</rss>
+  </planet>
+  <nick>omp</nick>
+  <image>omp.png</image>
+</feed>
+<feed>
+  <name>Javeed Shaikh</name>
+  <planet>
+    <www></www>
+    <rss>http://syscrash.ca/bblog/rss.php?ver=2</rss>
+  </planet>
+  <nick>syscrash2k</nick>
+  <image>syscrash.png</image>
+</feed>
+<feed>
+  <name>K Mandla</name>
+  <planet>
+    <www>http://kmandla.wordpress.com/</www>
+    <rss>http://kmandla.wordpress.com/feed/</rss>
+  </planet>
+  <nick>KMandla</nick>
+  <image></image>
+</feed>
+<feed>
+  <name>Kyle McMartin</name>
+  <planet>
+    <www></www>
+    <rss>http://blog.kyle.mcmartin.ca/?feed=rss2</rss>
+  </planet>
+  <nick>kyle</nick>
+  <image>kyle.png</image>
+</feed>
+<feed>
+  <name>Lostson</name>
+  <planet>
+    <www>http://lostsonsvault.org/geek</www>
+    <rss>http://lostsonsvault.org/geek/?feed=rss2</rss>
+  </planet>
+  <nick>lostson</nick>
+  <image>lostson.png</image>
+</feed>
+<feed>
+  <name>Michael Ramm</name>
+  <planet>
+    <www>http://blog.1manit.net/</www>
+    <rss>http://blog.1manit.net/category/openbox/feed</rss>
+  </planet>
+  <mini>
+    <www>http://identi.ca/michaelramm/</www>
+    <rss>http://identi.ca/michaelramm/rss</rss>
+  </mini>
+  <nick></nick>
+  <image>templertux75.png</image>
+</feed>
+<feed>
+  <name>Michael Thung</name>
+  <planet>
+    <www></www>
+    <rss>http://switch-case.org/rss.xml</rss>
+  </planet>
+  <mini>
+    <www>http://twitter.com/postlogic</www>
+    <rss>http://twitter.com/statuses/user_timeline/14292405.atom</rss>
+  </mini>
+  <nick>postlogic</nick>
+  <image></image>
+</feed>
+<feed>
+  <name>Miklos Bacso</name>
+  <planet>
+    <www>http://miklos.ca/log</www>
+    <rss>http://feeds.feedburner.com/memento_log</rss>
+  </planet>
+  <nick>miklos</nick>
+  <image>miklos.png</image>
+</feed>
+<feed>
+  <name>Nicol&#225;s Reynolds</name>
+  <planet>
+    <www>http://send-fruit.com.ar/</www>
+    <rss>http://feeds.feedburner.com/send-fruit</rss>
+  </planet>
+  <nick></nick>
+  <image>nich.png</image>
+</feed>
+<feed>
+  <name>Og Maciel</name>
+  <planet>
+    <www>http://www.ogmaciel.com/</www>
+    <rss>http://www.ogmaciel.com/?feed=rss2</rss>
+  </planet>
+  <mini>
+    <www>http://identi.ca/ogmaciel</www>
+    <rss>http://identi.ca/ogmaciel/rss</rss>
+  </mini>
+  <nick>OgMaciel</nick>
+  <image>ogmaciel.png</image>
+</feed>
+<feed>
+  <name>Oliver Kraitschy</name>
+  <planet>
+    <www></www>
+    <rss>http://www.okraits.de/blog/?feed=rss2</rss>
+  </planet>
+  <nick>okraits</nick>
+  <image>okraits.png</image>
+</feed>
+<feed>
+  <name>Philip Newborough</name>
+  <planet>
+    <www>http://crunchbang.org/</www>
+    <rss>http://crunchbang.org/feed/</rss>
+  </planet>
+  <mini>
+    <www>http://identi.ca/corenominal</www>
+    <rss>http://identi.ca/corenominal/rss</rss>
+  </mini>
+  <nick></nick>
+  <image>philip.png</image>
+</feed>
+<feed>
+  <name>Sebastian Sareyko</name>
+  <planet>
+    <www></www>
+    <rss>http://nooms.de/blog/feed/</rss>
+  </planet>
+  <nick>smoon</nick>
+  <image>smoon.png</image>
+</feed>
+<feed>
+  <name>Spencer French</name>
+  <planet>
+    <www>http://ingvildr.wordpress.com/</www>
+    <rss>http://ingvildr.wordpress.com/feed/</rss>
+  </planet>
+  <nick>ingvildr</nick>
+  <image>spencer.png</image>
+</feed>
+<feed>
+  <name>Tim Riley</name>
+  <planet>
+    <www>http://openmonkey.com/</www>
+    <rss>http://feeds.feedburner.com/BlahBlahWoofWoof</rss>
+  </planet>
+  <mini>
+    <www>http://twitter.com/timriley</www>
+    <rss>http://twitter.com/statuses/user_timeline/12341.atom</rss>
+  </mini>
+  <nick>Safari_Al</nick>
+  <image>saf.png</image>
+</feed>
+<feed>
+  <name>Tutku DALMAZ</name>
+  <planet>
+    <www></www>
+    <rss>http://tutkudalmaz.org/gunluk/?feed=rss2&amp;cat=7</rss>
+  </planet>
+  <nick></nick>
+  <image></image>
+</feed>
+<feed>
+  <name>Will Simpson</name>
+  <mini>
+    <www>http://identi.ca/willsimpson</www>
+    <rss>http://identi.ca/willsimpson/rss</rss>
+  </mini>
+  <nick></nick>
+  <image></image>
+</feed>
+<feed>
+  <name>appropedia</name>
+  <planet>
+    <www>http://blogs.appropedia.org/</www>
+    <rss>http://blogs.appropedia.org/tag/openbox/feed/</rss>
+  </planet>
+  <nick></nick>
+  <image></image>
+</feed>
+<feed>
+  <name>ghost1227</name>
+  <planet>
+    <www>http://workshop.ghost1227.com/</www>
+    <rss>http://workshop.ghost1227.com/feed/</rss>
+  </planet>
+  <nick></nick>
+  <image></image>
+</feed>
+<feed>
+  <name>urukrama</name>
+  <www>http://urukrama.wordpress.com/</www>
+  <rss>http://urukrama.wordpress.com/feed/</rss>
+  <nick>urukrama</nick>
+  <image></image>
+</feed>
+</feeds>

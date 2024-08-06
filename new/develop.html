@@ -1,0 +1,106 @@
+<?php
+$title = 'Develop';
+$breadcrumb = array('Home', '.');
+?>
+
+<html>
+<?php include('head.php'); ?>
+  <link rel="stylesheet" type="text/css" href="css/develop.css" />
+</head>
+
+<?php include('top.php'); ?>
+
+<?php splash_title('images/splash/develop.png', $title); ?>
+
+<?php include('content.php'); ?>
+
+<div id="col1"> 
+
+<dl> 
+<dt><img src="images/icons/git.png" alt="code"/></dt> 
+<dd><a href="develop-git.php">Check Out the Source Code</a><br/>
+Browse our <a href="http://git.icculus.org/?p=mikachu/openbox.git;a=summary">
+git repository</a> and learn <a href="develop-git.php">
+how to get</a> the latest code.</dd>
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/code.png" alt="patch"/></dt> 
+<dd><a href="develop-git.php#contrib">Contribute Code</a><br/>
+Help improve Openbox by
+<a href="http://bugzilla.icculus.org/buglist.cgi?product=Openbox&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=blocker&bug_severity=critical&bug_severity=major&bug_severity=normal&bug_severity=minor&bug_severity=trivial&bug_severity=upstream+issue">
+submitting patches</a> for open bugs and feature requests.</dd>
+</dl> 
+
+<dl> 
+<dt><img src="images/icons/obconf.png" alt="obconf"/></dt> 
+<dd><a href="http://git.icculus.org/?p=dana/obconf.git;a=summary">ObConf Source Code</a><br/>
+Start by browsing the
+<a href="http://git.icculus.org/?p=dana/obconf.git;a=summary">
+git repository</a>.  Instructions for
+<a href="develop-git.php">using git</a> also apply here.
+</dd>
+</dl> 
+ 
+</div> 
+ 
+<div id="col2"> 
+
+<dl> 
+<dt><img src="images/icons/bug.png" alt="bug"/></dt> 
+<dd><a href="http://bugzilla.icculus.org/enter_bug.cgi?product=Openbox&component=general&form_name=enter_bug">Report a Bug</a><br/>
+Browse
+<a href="http://bugzilla.icculus.org/buglist.cgi?product=Openbox&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=blocker&bug_severity=critical&bug_severity=major&bug_severity=normal&bug_severity=minor&bug_severity=trivial&bug_severity=upstream+issue">
+known bugs</a> in our database, or make a
+<a href="http://bugzilla.icculus.org/enter_bug.cgi?product=Openbox&component=general&form_name=enter_bug">new bug</a> report.
+<div class="clear"></div>
+<img class="emblem" src="images/importantsmall.png" alt="!" />
+When submitting a bug report, please make sure to explain
+how to reproduce your problem. If we can't reproduce it, we probably can't
+fix it.
+
+</dd>
+</dl> 
+
+ 
+
+<dl> 
+<dt><img src="images/icons/translate.png" alt="translate"/></dt> 
+<dd><a href="develop-translate.php">Help Translate Openbox</a><br/>Any improvements to translations are greatly appreciated.</dd> 
+</dl> 
+ 
+<dl> 
+<dt><img src="images/icons/feature.png" alt="feature requests"/></dt> 
+<dd>
+<a href="http://bugzilla.icculus.org/buglist.cgi?product=Openbox&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=enhancement">
+Feature Requests</a><br/>Browse
+<a href="http://bugzilla.icculus.org/buglist.cgi?product=Openbox&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_severity=enhancement">
+existing feature requests</a>, or
+<a href="http://bugzilla.icculus.org/enter_bug.cgi?product=Openbox&component=general&bug_severity=enhancement&form_name=enter_bug">
+contribute your own</a>.</dd> 
+</dl> 
+</div>
+
+<div id="col3"> 
+<a href="http://cia.vc/stats/project/Openbox/.rss"><img class="rsslink" src="images/rss.png" title="Subscribe to the feed" /></a>
+<h5>Recent Commits</h5> 
+<dl>
+
+<div id="commits" class="ticker"></div>
+<script type="text/javascript">
+  xmlNews('commits',     // the feed name
+	  'commits',     // the div name
+	  5,             // count
+	  'showname,showdate');
+</script>
+<div class="tickermore"> 
+  <a href="http://cia.vc/stats/project/Openbox/">More Openbox commits...</a> 
+</div> 
+<div class="tickermore"> 
+  <a href="http://cia.vc/stats/project/ObConf/">More ObConf commits...</a> 
+</div> 
+
+</dl>
+</div> <!--col3-->
+
+<?php include('bottom.php'); ?>

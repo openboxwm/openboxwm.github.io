@@ -1,0 +1,51 @@
+#menu .home a {
+  color: black;
+  background-color: #76C11C;
+/*  background: #c50000;*/
+}
+
+#splash-content {
+  padding: 20px;
+}
+
+#splashimage {
+  width:40%;
+  float:left;
+}
+
+#splashtext {
+  width: 56%;
+  float: right;
+}
+
+#splashtext p {
+  font-size: 0.9em;
+  margin: 1em 0;
+  clear: both;
+}
+
+#splashtext a {
+  color: black;
+}
+
+#splashtext h2 {
+  font-size: 1.4em;
+  /*font-style: italic;*/
+}
+
+#splash #download a {
+  display: block;
+  height: 38px;
+  width: 205px;
+  background: url('../images/home/download.png') top left no-repeat;
+  text-decoration:none;
+}
+
+/*
+#splash #download a:hover {
+  display: block;
+  height: 38px;
+  width: 205px;
+  background: url('../images/home/download.png') 0px -38px no-repeat;
+}
+*/

@@ -1,0 +1,47 @@
+#menu .download a {
+  color: black;
+  background-color: #76C11C;
+/*  background: #c50000;*/
+}
+
+#col2 {
+  width: 60%;
+}
+
+#col2 li {
+  list-style-type: none;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h5.text {
+  margin-top: 1em;
+}
+
+h5.text:first-child {
+  margin-top: 0;
+}
+
+#col2 div.iconlist {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#col2 div.version {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #666;
+}
+
+#col2 ul.version {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+#col2 ul.version li {
+  margin-left: 0;
+}
+
+#col2 .version {
+  margin-left: 53px;
+}

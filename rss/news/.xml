@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<feed>
+ <title>Openbox News</title>
+ <link>http://openbox.org/wiki/Openbox:News</link>
+ <description>News for the Openbox window manager</description>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.11_released</link>
+  <text>&lt;p&gt;
+In case you're going to be bored this valentines day, we've made another Openbox 3.4 release, so you can spend your day with Openbox.
+  &lt;/p&gt;&lt;p&gt;
+There are a number of bug fixes in this release, and continued improvements to menu behaviour.  The coolest thing however, is changes to the the focus cycling (Alt-Tab) dialog.  It is now dynamic as windows appear/disappear while focus cycling.  We've got some more really cool changes coming up for in in the 3.5 series as well so stay tuned for those.
+  &lt;/p&gt;&lt;p&gt;
+As you may have noticed, we are also moving our web hosting to a new site, which is allowing us to use the openbox.org domain fully.  As such, the http://icculus.org/openbox site has moved to http://openbox.org since a few weeks ago.
+  &lt;/p&gt;&lt;p&gt;
+You can see the full changelog here: http://openbox.org/wiki/Openbox:Changelog
+And download the latest before it hits youre distribution here: http://openbox.org/wiki/Openbox:Download
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.11 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>da83b26064fcec5d61e13757075bbd76</id>
+  <date>1265676578</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.10_released</link>
+  <text>&lt;p&gt;
+We just can't get enough of the Openbox 3.4 series.  Today we're happy to release version Openbox 3.4.10.
+  &lt;/p&gt;&lt;p&gt;
+This is a minor bugfix + new features release, mostly focused on Openbox menu behaviours.  Here's the complete changelog:
+  &lt;/p&gt;&lt;p&gt;
+    &lt;ul&gt;
+    &lt;li&gt;Improve keyboard navigation in Openbox menus.
+    &lt;/li&gt;
+    &lt;li&gt;Add a --root option and a manpage for obxprop.
+    &lt;/li&gt;
+    &lt;li&gt;Use a negative value for submenuShowDelay and submenuHideDelay to cause an infinite delay.  This means you have to click to show a submenu, rather than just hover over it.
+    &lt;/li&gt;
+    &lt;li&gt;Improved code for submenu show/hide delay.  Added the submenuHideDelay config file option, under the &quot;menu&quot; section.
+    &lt;/li&gt;
+    &lt;li&gt;Fixed bug #4464 (Typo in openbox-gnome-session script).
+    &lt;/li&gt;
+    &lt;li&gt;Fixed bug #4436 (Focusing a window used to stop focus cycling).
+    &lt;/li&gt;
+    &lt;li&gt;Renamed obprop to obxprop due to collision with Open Babel (See bug #4419).
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/p&gt;&lt;p&gt;
+You can download the new release from here:
+http://openbox.org/wiki/Openbox:Download
+  &lt;/p&gt;&lt;p&gt;
+p.s. Happy new year !
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.10 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>86c9ac5cf2d70e5a67d213772e929965</id>
+  <date>1264877186</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.9_released</link>
+  <text>&lt;p&gt;
+I present to you all Openbox version 3.4.9.
+  &lt;/p&gt;&lt;p&gt;
+You can view all the detailed changes here:
+http://icculus.org/openbox/index.php/Openbox:Changelog#3.4.9
+and download it from here:
+http://icculus.org/openbox/index.php/Openbox:Download
+  &lt;/p&gt;&lt;p&gt;
+This release is expected to be the last of the 3.4 series, with some forward-looking changes coming in future releases.
+  &lt;/p&gt;&lt;p&gt;
+We've improved interoperability with gnome-session so that GNOME/Openbox should work correcly &quot;out of the box&quot; on newer distributions again.
+  &lt;/p&gt;&lt;p&gt;
+I got a second monitor, and so ended up spending a lot of time improving behaviour for multi-monitor setups.  This culminated in the primaryMonitor option in the rc.xml config file.  This option dictates where Openbox will show popups such as the one for cycling windows with Alt-Tab.
+  &lt;/p&gt;&lt;p&gt;
+We've added _OB_ROLE, _OB_NAME, and _OB_CLASS hints on all windows, to help with making application rules in the rc.xml.  Also, we've added a new &quot;obprop&quot; command to help you read these properties off of a window.
+  &lt;/p&gt;&lt;p&gt;
+And lastly, Openbox menus should be a little more friendly now, as submenus do not hide immediately anymore, allowing you to skip across items in a menu in order to reach the submenu.
+  &lt;/p&gt;&lt;p&gt;
+Thank you to all the users who gave feedback in bug reports and tested things.  You all helped a lot in making this release.
+  &lt;/p&gt;&lt;p&gt;
+Happy holidays, and happy Openboxing.
+  &lt;/p&gt;&lt;p&gt;
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.9 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>2250d410274e8de1726935a6b94b2294</id>
+  <date>1261171290</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.8_released</link>
+  <text>&lt;p&gt;
+It's been a while but we're pleased to announce a new Openbox release.
+  &lt;/p&gt;&lt;p&gt;
+You can view all the detailed changes here:
+http://icculus.org/openbox/index.php/Openbox:Changelog#3.4.8
+and download it from here:
+http://icculus.org/openbox/index.php/Openbox:Download
+  &lt;/p&gt;&lt;p&gt;
+Largely this release fixes bugs reported by users, especially in terms of focusing new windows, or through the _NET_ACTIVE_WINDOW message used by pagers/panels etc.
+  &lt;/p&gt;&lt;p&gt;
+GNOME/Openbox (aka openbox-gnome-session) should work out of the box again, with newer versions (&gt; 2.22) of GNOME.
+  &lt;/p&gt;&lt;p&gt;
+Many translations have been updated, and three new translations are now included: Danish, Turkish, and Lithuanian.  (Thank you, translators!)
+  &lt;/p&gt;&lt;p&gt;
+Google Chrome will now work correctly when you toggle it between using system borders or its own.
+  &lt;/p&gt;&lt;p&gt;
+Struts with multiple monitors should work better now.  More changes will come, pending some discussion in the wm-spec mailing list.  We're working to make struts/panels as flexible as possible with multiple monitors.
+  &lt;/p&gt;&lt;p&gt;
+We've added support for clicking through shaped windows.
+  &lt;/p&gt;&lt;p&gt;
+We no longer will try hard to prevent focus from moving while a keyboard grab is in place.  In practice this should help make fewer surprises for our users, but may cause buggy applications to track their focus incorrectly.  We're hoping that the buggy apps are in the minority by this point.
+  &lt;/p&gt;&lt;p&gt;
+And lastly, the Exit and SessionLogout actions have similar functionality, so we've decided to merge them together.  Both actions still exist but they both do the right thing based on how you are running Openbox.
+  &lt;/p&gt;&lt;p&gt;
+Cheers.
+  &lt;/p&gt;&lt;p&gt;
+  &lt;/p&gt;&lt;p&gt;
+  &lt;/p&gt;&lt;p&gt;
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.8 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>af52fa553bb5f4be63586e5ebc191bc0</id>
+  <date>1260324293</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.7.1_released</link>
+  <text>&lt;p&gt;
+After three pre-releases I made some last minute breaking and released 3.4.7, soon after which I did some last minute unbreaking and released 3.4.7.1.
+  &lt;/p&gt;&lt;p&gt;
+You can view all the detailed changes here:
+http://icculus.org/openbox/index.php/Openbox:Changelog#3.4.7.1
+and download it from here:
+http://icculus.org/openbox/index.php/Openbox:Download
+  &lt;/p&gt;&lt;p&gt;
+The change which I suspect will cause us the most trouble is that _NET_ACTIVE_WINDOW now shows the window on the current desktop, so pagers/panels should send a desktop change message first.  Probably some of them don't and people will send bug reports. Send them to the pager/panel author instead please :).
+  &lt;/p&gt;&lt;p&gt;
+Other user noticable changes include a new default window icon and prompt windows that openbox will show on syntax errors. They can also be used to ask for confirmation before exiting or running an execute action.
+  &lt;/p&gt;&lt;p&gt;
+The default menu.xml file has been updated to be a bit more sensible and hopefully includes more useful items now than before. Menus got some more theme settings too, you can now customize the look of separator lines, and the offset of submenus in the x- and y-dimension separately.
+  &lt;/p&gt;&lt;p&gt;
+On the backend side, the Vertical, SplitVertical, Horizontal and Pyramid gradients got some speed impromevents, and an icon cache was introduced to reduce memory usage. Lots of small bugs were also fixed.
+  &lt;/p&gt;&lt;p&gt;
+Have fun!
+  &lt;/p&gt;&lt;p&gt;
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.7.1 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>d6c25a5de0f71cbdde7fb1b77a79f3c1</id>
+  <date>1208460427</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.6.1_released</link>
+  <text>&lt;p&gt;
+Openbox 3.4.6.1 has been released.  This is a small bug-fix release that fixes a number of issues found in version 3.4.6.
+  &lt;/p&gt;&lt;p&gt;
+It also includes updates to the new Clearlooks theme, which improve the visual look of any openbox popup dialogs.
+  &lt;/p&gt;&lt;p&gt;
+Two small new features have found their way into this release as well:
+  &lt;/p&gt;&lt;p&gt;
+A new &lt;manageDesktops&gt; option in the menu portion of rc.xml, which allows you to enable or disable the &quot;Manage Desktops&quot; portion of the combined-client-list-menu (Middle-click on the desktop)
+  &lt;/p&gt;&lt;p&gt;
+For per-app settings, the &lt;position&gt; tag has a new attribute called &quot;force&quot;, which lets you force a window to be positioned at the given coordinates, even if it says you asked it to go somewhere else.  This gives you a way to work around buggy applications that always place themselves awkwardly without any option to do otherwise.
+  &lt;/p&gt;&lt;p&gt;
+An example of this is:
+  &lt;position force=&quot;yes&quot;&gt;
+    &lt;x&gt;-0&lt;/x&gt;
+    &lt;y&gt;0&lt;/y&gt;
+  &lt;/position&gt;
+  &lt;/p&gt;&lt;p&gt;
+The full changelog is here: http://icculus.org/openbox/index.php/Openbox:Changelog#3.4.6.1
+  &lt;/p&gt;&lt;p&gt;
+And downloads are available here: http://icculus.org/openbox/index.php/Openbox:Download#Openbox
+  &lt;/p&gt;&lt;p&gt;
+Cheers!
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.6.1 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>0813210b0f3e0a53451c9d4e7f8c0cea</id>
+  <date>1202291455</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.6_and_ObConf_2.0.3_released</link>
+  <text>&lt;p&gt;
+Openbox 3.4.6 and ObConf 2.0.3 have been released for mass consumption!
+  &lt;/p&gt;&lt;p&gt;
+This Openbox release introduces a new look!  The Clearlooks theme has been updated to match the latest GTK Clearlooks engine.  As well Openbox and ObConf are both sporting shiny new icons.
+  &lt;/p&gt;&lt;p&gt;
+Translations have been updated for both Openbox and ObConf, as well as some new ones, including:
+    &lt;ul&gt;
+    &lt;li&gt;New Basque translation for Openbox
+    &lt;/li&gt;
+    &lt;li&gt;New Norwegian translation for ObConf
+    &lt;/li&gt;
+    &lt;li&gt;New Turkish translation for ObConf
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/p&gt;&lt;p&gt;
+Also included in this Openbox release are a number of new features:
+    &lt;ul&gt;
+    &lt;li&gt;The &quot;NextWindow&quot;, &quot;PreviousWindow&quot;, and &quot;DirectionalFocus*&quot; actions have two new options: &quot;raise&quot; and &quot;bar&quot;.  The &quot;raise&quot; option will temporarily raise windows to the front of the screenas you cycle through them, and the &quot;bar&quot; option allows you to turn off the focus cycling target indicator.  These options are described in the documentation here: http://icculus.org/openbox/index.php/Help:Actions#NextWindow
+    &lt;/li&gt;
+    &lt;li&gt;A new &lt;monitor&gt; option for window placement, which gives you the option to place new windows on the active monitor, or the monitor where the mouse is, instead of on any monitor (for Xinerama/TwinView multi-monitor setups) 
+    &lt;/li&gt;
+    &lt;li&gt;New options for placing the window move/resize coordinates window in a fixed position on screen, rather than relative to the window being moved or resized 
+    &lt;/li&gt;
+    &lt;li&gt;Application windows which support the appropriate protocols will now show [Not Responding] in their titlebars when the application has frozen up.  By closing the window while the [Not Responding] message is visible, Openbox will kill the window's process, allowing you to kill frozen applications without dropping to the command line.  If the window still won't close after the first try, a further close attempt will use kill -9.
+    &lt;/li&gt;
+    &lt;li&gt;We added a new &lt;wmclass&gt; option for the execute action's startup-notification. This lets you tell Openbox that the application will map a window with the specified class - for applications that do not support startup-notification natively. This new option is desribed in the documentation here: http://icculus.org/openbox/index.php/Help:Actions#Startup_notification
+    &lt;/li&gt;
+    &lt;li&gt;A new --config-file command line option, which can be used to load an alternate configuration file.  ObConf 2.0.3 will automatically open the same configuration file.
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/p&gt;&lt;p&gt;
+For Openbox 3.4.6, we have also made a large number of usability improvements under the hood, especially for Xinerama/TwinView desktops, and fixed a number of bugs.
+  &lt;/p&gt;&lt;p&gt;
+The ObConf 2.0.3 release has a whole new look, with the tabs moved over to the side of the window.  This release adds support for all of the latest features introduced in Openbox 3.4.4, 3.4.5, and 3.4.6.
+  &lt;/p&gt;&lt;p&gt;
+Full changelogs can be found here:
+  &lt;/p&gt;&lt;p&gt;
+Openbox - http://icculus.org/openbox/index.php/Openbox:Changelog#3.4.6
+  &lt;/p&gt;&lt;p&gt;
+ObConf - http://icculus.org/openbox/index.php/ObConf:Changelog#2.0.3
+  &lt;/p&gt;&lt;p&gt;
+Downloads are available from the website:
+http://icculus.org/openbox/index.php/Openbox:Download
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.6 and ObConf 2.0.3 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>307867e2501a205d27519ed5a6832d4e</id>
+  <date>1201992798</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.5_released</link>
+  <text>&lt;p&gt;
+Openbox 3.4.5 released.
+  &lt;/p&gt;&lt;p&gt;
+This release fixes some very minor memory leaks, updates Finnish, Russian, German and French translations, adds a new Hungarian translation, fixes a crash when trying to access the More... menu of client-list-combined-menu and some minor bug fixes.
+  &lt;/p&gt;&lt;p&gt;
+Downloads are available from the website: http://icculus.org/openbox/index.php/Openbox:Download
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.5 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>75b85edda71dd4c5525c7145a1f91ec5</id>
+  <date>1199650413</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.4_released</link>
+  <text>&lt;p&gt;
+Openbox 3.4.4 is ready for action.
+  &lt;/p&gt;&lt;p&gt;
+This release largely focuses on bug-fixes, with a few brand new things:
+    &lt;ul&gt;
+    &lt;li&gt;The vertical and horizontal padding sizes can now be specified independently in themes (See http://icculus.org/openbox/index.php/Help:Themes#window.client.padding.height)
+    &lt;/li&gt;
+    &lt;li&gt;A notification is now displayed when you switch desktops, similar to the old desktop switching dialog.  You can configure how long it appears for, or turn it off if you want.  This option will be presented in the next ObConf release.
+    &lt;/li&gt;
+    &lt;li&gt;New focus stealing prevention that doesn't suck.  It seemed like it couldn't be done, but now focus stealing prevention should only trigger if you are actually, actively, working in another window.
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/p&gt;&lt;p&gt;
+On top of these, a large number of bug fixes and usability improvements have been added.  You can read the full changelog here: http://icculus.org/openbox/index.php/Openbox:Changelog#3.4.4
+  &lt;/p&gt;&lt;p&gt;
+Downloads are available from the website: http://icculus.org/openbox/index.php/Openbox:Download
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.4 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>3589daf418eb855aaf3d828d50eaeb3f</id>
+  <date>1186280080</date>
+ </item>
+ <item>
+  <name></name>
+  <nick></nick>
+  <image>rss/heads/noimage.png</image>
+  <link>http://openbox.org/wiki/Openbox:News#Openbox_3.4.3_and_ObConf_2.0.2_released</link>
+  <text>&lt;p&gt;
+Introducing the one and only fantabulous Openbox 3.4.3!
+  &lt;/p&gt;&lt;p&gt;
+It's been just over a month since 3.4.2 was released, and we have a whole lot of new things for you all.
+  &lt;/p&gt;&lt;p&gt;
+The full changelog is available on the website, here: http://openbox.org/index.php/Openbox:Changelog#3.4.3
+  &lt;/p&gt;&lt;p&gt;
+It's a little bit long so we'll highlight some of the important stuff.  This might get long too.
+  &lt;/p&gt;&lt;p&gt;
+First off, Openbox has now been translated to Ukrainian.  We now have Openbox available in 24 different languages/localizations!
+  &lt;/p&gt;&lt;p&gt;
+New actions for what we're calling &quot;dynamic desktops&quot;.  These actions let you add and remove desktops with actions.  What's especially new and interesting is the ability to insert and remove desktops in the middle instead of only at the end.  So if you want a new Desktop 2, you can just insert one, and all your other desktops will shuffle down one. These actions are AddDesktopLast, RemoveDesktopLast, AddDesktopCurrent, RemoveDesktopCurrent.  They are all listed on the website: http://openbox.org/index.php/Help:Actions
+  &lt;/p&gt;&lt;p&gt;
+The client list menus (Middle click on the desktop background) have new entries for adding and removing desktops.
+  &lt;/p&gt;&lt;p&gt;
+Smart window placement now comes with a &quot;center&quot; option, to have it center windows when it is placing them, rather than putting them in the top left corner.  ObConf 2.0.2 will let you change this option.
+  &lt;/p&gt;&lt;p&gt;
+The new MoveResizeTo action.  This action lets you move or resize a window, and is very Xinerama-aware.  You can use it to move a window to any specific monitor.  As well, you can use it to move a window to any edge of any monitor!  See the documentation for details on how to use it: http://openbox.org/index.php/Help:Actions#MoveResizeTo
+  &lt;/p&gt;&lt;p&gt;
+Windows will no longer be focused when they raise themselves.  This was a nice idea but it caused a lot of headaches for people, so it will no longer be there.
+  &lt;/p&gt;&lt;p&gt;
+The MoveFromEdge actions have been rolled into the MoveToEdge actions, so you don't need two sets of bindings to move a window to any edge.
+  &lt;/p&gt;&lt;p&gt;
+Themes can now specify all 4 colors used for SplitVertical gradients if they wish to.  See the theme specification for details: http://openbox.org/index.php/Help:Themes#SplitVertical_gradients
+  &lt;/p&gt;&lt;p&gt;
+Openbox is now extremely clever with regard to partial struts.  This means, for instance, if you have a panal that doesn't cover the whole bottom of you screen, you will be able to fully use the areas to the sides of the panel.  This is especially important for Xinerama setups, where you have a panel that is on only one monitor.  Maximizing a window on a monitor without a panel will now work as expected - it can ignore the panel on the other monitor.
+  &lt;/p&gt;&lt;p&gt;
+The MoveToCenter action has been improved for Xinerama support, but has been obsoleted by the MoveResizeTo action which can do this and more.  It will likely be removed in a future release.
+  &lt;/p&gt;&lt;p&gt;
+A few deprecated actions have been removed:
+    &lt;ul&gt;
+    &lt;li&gt;ShowDesktop and UnshowDesktop (Use ToggleShowDesktop instead)
+    &lt;/li&gt;
+    &lt;li&gt;ResizeRelativeVert and ResizeRelativeHorz (Use ResizeRelative instead)
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/p&gt;&lt;p&gt;
+You can now drag a window between desktops.  When you are moving a window and drag it to the edge of the screen, Openbox will flip to the next desktop for you.
+  &lt;/p&gt;&lt;p&gt;
+The desktop switching dialog has been removed in this release.  Many people were confused that Openbox didn't switch desktops instantly.  We'd like to find a way to bring the dialog back, maybe in a new form, in the future.
+  &lt;/p&gt;&lt;p&gt;
+The DirectionalFocus actions have been changed.  You can now make intereactive actions that don't use a modifier key.  So if you used these actions in a non-interactive way, they will no longer behave as they used to.  The DirectionalTarget actions have been added which let you move focus in the same fashion, but non-interactively (i.e. it moves as soon as you run the action).
+  &lt;/p&gt;&lt;p&gt;
+The NextWindow, PreviousWindow, DirectionalFocus and DirectionalTarget actions can now be customized if you don't like their default behavior.  By default, these actions will Focus, Raise, and Unshade the window you select with them.  Now, you can use the &lt;finalactions&gt; option to specify which actions you'd like to perform.  You can add more actions that the default 3 if you'd like to, or maybe just not have the window raise anymore.  See the documentation for mroe details on how to do this: http://openbox.org/index.php/Help:Actions#NextWindow
+  &lt;/p&gt;&lt;p&gt;
+Keyboard moving has been greatly improved.  Now when moving a window with the keyboard, you can use Shift and Control to change how the window is moved:
+    &lt;ul&gt;
+    &lt;li&gt;Control-arrow will move the window by only 1 pixel at a time
+    &lt;/li&gt;
+    &lt;li&gt;Shift-arrow will jump the window to the next edge (just as the MoveToEdge actions work).
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/p&gt;&lt;p&gt;
+Keyboard resizing has also been greatly improved.  You can now resize any edge of a window instead of only the bottom/right edges:
+    &lt;ul&gt;
+    &lt;li&gt;The first arrow will choose an edge to resize (then you can grow or shrink the window on that edge)
+    &lt;/li&gt;
+    &lt;li&gt;Hitting an arrow perpendicular to your selected edge will choose a different edge to resize
+    &lt;/li&gt;
+    &lt;li&gt;Shift-arrow will grow/shrink the window to the next edge (just as GrowToEdge actions work)
+    &lt;/li&gt;
+    &lt;li&gt;Control arrow will grow/shrink the window by only 1 pixel
+    &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/p&gt;&lt;p&gt;
+You can now specify the shortcut keys in your menus, instead of just using the first letter in the string.  Use an underscore to specify the shortcut in the label.  For example, label=&quot;XTe_rm&quot; would make 'r' the shortcut key to run XTerm in your menu.
+  &lt;/p&gt;&lt;p&gt;
+You can now specify margins in the Openbox config file.  These margins are areas of the screen which maximized windows will not cover, and where new windows will not be placed.  Use these if you want to keep a portion of your desktop background visible all the time - for instance, if you run Conky and want to always be able to see it.  ObConf 2.0.2 will let you configure these.
+  &lt;/p&gt;&lt;p&gt;
+The Execute action has changed a little.  You can now specify the command to be run with the &lt;command&gt; option.  The default bindings and menu have been changed to use this.  However, the old &lt;execute&gt; option will still work too.
+  &lt;/p&gt;&lt;p&gt;
+The Decorate and Undecorate actions have been added to compliment the ToggleDecorations action.
+  &lt;/p&gt;&lt;p&gt;
+You can now use per-app settings to place a window on any edge of the screen.  The position options take values similar to -geometry for X applications.  &quot;-n&quot; uses the far edge, &quot;+n&quot; uses the near edge, so for example &lt;position&gt;&lt;x&gt;-0&lt;/x&gt;&lt;y&gt;-0&lt;/y&gt;&lt;/position&gt; would place the window in the bottom right corner.  You can use &quot;--n&quot; and &quot;+-n&quot; to specify negative numbers.
+  &lt;/p&gt;&lt;p&gt;
+---------------------------------------
+  &lt;/p&gt;&lt;p&gt;
+Along with this release comes ObConf 2.0.2, which includes bug fixes and support for the latest features added in Openbox 3.4.3.  This release also upgrades ObConf to the Openbox 3.4.3 libraries, and you will need to upgrade in order to use ObConf with Openbox 3.4.3.
+  &lt;/p&gt;&lt;p&gt;
+The full changelog for ObConf 2.0.2 is available here: http://openbox.org/index.php/ObConf:Changelog#2.0.2
+  &lt;/p&gt;&lt;p&gt;
+---------------------------------------
+  &lt;/p&gt;&lt;p&gt;
+You can download the new Openbox and ObConf releases from the Openbox website: http://openbox.org/index.php/Openbox:Download
+  &lt;/p&gt;&lt;p&gt;
+Cheers!
+  &lt;/p&gt;</text>
+  <title>Openbox 3.4.3 and ObConf 2.0.2 released</title>
+  <feedurl>http://openbox.org/wiki/Openbox:News</feedurl>
+  <feedtitle>Openbox News</feedtitle>
+  <id>b43fcc6ddc8b501e6e9c414592736590</id>
+  <date>1185132683</date>
+ </item>
+</feed>
