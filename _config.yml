@@ -22,7 +22,7 @@ title: Openbox
 email: danakj@orodu.net
 description: >- # this means to ignore newlines until "baseurl:"
   Openbox window manager.
-baseurl: /openboxwm.github.io
+#baseurl: /openboxwm.github.io
 github_username:  openboxwm
 domain: openboxwm.github.io
 url: https://openboxwm.github.io
